@@ -1,12 +1,12 @@
-// Archivo que contiene las frases motivadoras
-// Cada objeto tiene: id, texto, autor y categoría (tag)
+// Archivo que contiene las frases motivacionales de la app.
+// Se exporta una constante llamada QUOTES para poder usarla en otros componentes (por ejemplo en Frases.jsx).
 
 export const QUOTES = [
   {
-    id: 1,
-    text: "La disciplina vence al talento cuando el talento no se disciplina.",
-    author: "Anónimo",
-    tag: "Disciplina"
+    id: 1, // identificador único de la frase (sirve para diferenciar y manejar favoritos)
+    text: "La disciplina vence al talento cuando el talento no se disciplina.", // texto principal de la frase
+    author: "Anónimo", // autor de la frase
+    tag: "Disciplina" // categoría o tema (usada para filtrar)
   },
   {
     id: 2,

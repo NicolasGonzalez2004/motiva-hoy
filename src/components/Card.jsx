@@ -10,3 +10,4 @@ export default function Card({ title, children }) {
   );
 }
 
+//este es mi contenedor para agrupar las secciones como el selector de categorias

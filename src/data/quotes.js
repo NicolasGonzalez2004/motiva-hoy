@@ -33,3 +33,4 @@ export const QUOTES = [
     tag: "Acción"
   }
 ];
+//Esta es la fuente de datos: array Quotes con {id,text.author,tag}

@@ -11,3 +11,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </BrowserRouter>
 );
+//Es el que me monta la app en el DOM(es la estructura del html que el navegador entiende) con react 

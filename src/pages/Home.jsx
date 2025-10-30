@@ -30,3 +30,4 @@ export default function Home() {
     </>
   );
 }
+//me muestra la frase aleatoria y un CTA (call to action : llamado a la seccion )

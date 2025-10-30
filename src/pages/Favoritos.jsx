@@ -23,4 +23,5 @@ export default function Favoritos() {
     </>
   );
 }
+//aca muestro solo las frases que estan marcadas como favorito , estan guardados en localStorage (permite guardar datos de forma local en el dispositivo)
 

@@ -37,3 +37,6 @@ module.exports = function (config) {
     ]
   });
 };
+//quote-card-spec.js  (renderizado y boton del componente quoteCard)
+//favoritos.spec.js   (logica de almacenamiento (get/toggle/favorites))
+//random.spec.js      (funcion que obtiene una frase aleatoria)

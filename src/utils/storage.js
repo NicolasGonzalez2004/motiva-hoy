@@ -18,3 +18,7 @@ export const toggleFavorite = (id) => {
 };
 
 export const isFavorite = (id) => getFavorites().includes(id);
+
+//Esta es la capa de persistencia que guarda datos para que no se pierdan cuando se cierra o recarga la aplicacion
+//getFavorites()--> Devuelve array de IDs favoritos
+//toggleFavorite(id)--> agrega/quita id y guarda  

@@ -24,3 +24,4 @@ export default function QuoteCard({ text, author, liked=false, onToggleLike }) {
     </div>
   );
 }
+//Recibe text, author , tag, isFav,onToggleFav

@@ -28,3 +28,4 @@ export default function App() {
   );
 }
 
+//Aca tengo declarado los links y las rutas , sacado de bootstrap

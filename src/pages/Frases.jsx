@@ -8,7 +8,7 @@ export default function Frases() {
   const [favs, setFavs] = React.useState(getFavorites());
   const [filtro, setFiltro] = React.useState("Todas");
 
-  const tags = ["Todas", ...Array.from(new Set(QUOTES.map(q => q.tag)))];
+  const tags = ["Todas", ...Array.from(new Set(QUOTES.map(q => q.tag)))];//esto me permite crear categorias unicas 
   const list = QUOTES.filter(q => filtro === "Todas" ? true : q.tag === filtro);
 
   return (
@@ -19,13 +19,13 @@ export default function Frases() {
         <select
           className="form-select w-auto"
           value={filtro}
-          onChange={(e)=>setFiltro(e.target.value)}
+          onChange={(e)=>setFiltro(e.target.value)} // actualiza la lista de frases 
         >
           {tags.map(t => <option key={t}>{t}</option>)}
         </select>
       </Card>
 
-      {list.map(q => (
+      {list.map(q => (    //Me recorre un arreglo , en este caso list 
         <QuoteCard
           key={q.id}
           text={q.text}
@@ -37,4 +37,5 @@ export default function Frases() {
     </>
   );
 }
+//Primero importo lo que necesito y con useStates manejo favs y filtro.
 

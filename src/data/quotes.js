@@ -1,5 +1,4 @@
-// Archivo que contiene las frases motivacionales de la app.
-// Se exporta una constante llamada QUOTES para poder usarla en otros componentes (por ejemplo en Frases.jsx).
+
 
 export const QUOTES = [
   {

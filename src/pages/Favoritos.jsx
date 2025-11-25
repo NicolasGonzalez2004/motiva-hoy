@@ -4,7 +4,7 @@ import { getFavorites, toggleFavorite } from "../utils/storage";
 import QuoteCard from "../components/QuoteCard";
 
 export default function Favoritos() {
-  const [favs, setFavs] = React.useState(getFavorites());
+  const [favs, setFavs] = React.useState(getFavorites());  // const para guardar un valor 
   const list = QUOTES.filter(q => favs.includes(q.id));
 
   return (

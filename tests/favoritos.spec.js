@@ -6,8 +6,9 @@ describe("Favoritos (localStorage)", () => {
   it("agrega y quita un id correctamente", () => {
     expect(getFavorites()).toEqual([]);
     toggleFavorite(2);
-    expect(getFavorites()).toEqual([2]);
+    expect(getFavorites()).toEqual([2]); // al llamar toggleFavorite se agregue correctamente EL ID 2 
     toggleFavorite(2);
-    expect(getFavorites()).toEqual([]);
+    expect(getFavorites()).toEqual([]); // toequal: verifica que tengan el mismo valor 
   });
 });
+//que quede favoritazo

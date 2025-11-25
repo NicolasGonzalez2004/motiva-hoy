@@ -5,7 +5,7 @@ import QuoteCard from "../src/components/QuoteCard.jsx";
 describe("QuoteCard", () => {
   it("muestra texto y autor", () => {
     render(<QuoteCard text="Sigue adelante" author="Kobe Bryant" />);
-    expect(screen.getByText(/Sigue adelante/i)).toBeTruthy();
+    expect(screen.getByText(/Sigue adelante/i)).toBeTruthy(); // comprueba que una expresion no sea falsa 
    expect(screen.getByText(/Kobe Bryant/i)).toBeTruthy();
   });
 });
